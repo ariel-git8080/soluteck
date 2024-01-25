@@ -1,0 +1,181 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,400;1,500&display=swap');
+
+
+  *{
+    font-family: 'Poppins', sans-serif;
+  }
+
+
+body{
+    background-color: #fbffff;
+}
+
+  
+.undiv{
+justify-content: center;
+display: flex;
+flex-wrap: wrap;
+}
+.unh1{
+    color: black;
+}
+
+h1{
+    font-weight: bold;
+    color:rgb(255, 255, 255);
+}
+p{
+    font-weight: bold;
+}
+
+.wassap {
+    position: fixed;
+    top: 10px; /* Ajusta la distancia desde la parte superior */
+    right: 10px; /* Ajusta la distancia desde el borde derecho */
+    /*ackground-color: #25D366; /* Color de fondo */
+    padding: 10px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    text-decoration: none;
+  }
+
+  .whatsapp-link {
+    color: #60e276; /* Color del texto */
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+  .whatsapp-link:hover {
+    color: #128C7E;
+  }
+
+  .whatsapp-link {
+    color: #46e746; /* Color del texto */
+    text-decoration: none;
+    font-size: 27px;
+    font-weight: bold;
+  }
+
+  .whatsapp-link:hover {
+    color: #2bb693;
+  }
+
+.btn-custom {
+    width: 180px; /* Ajusta el ancho según sea necesario */
+    background-color: #2326c5;
+    color: #fff;
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease-in-out;
+    position: relative;
+    bottom: 80px;
+  }
+  
+  .btn-custom:hover {
+    background-color: #0cc5dd;
+  }
+  
+.miseccion2{
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    padding-top: calc(50vh- 50px);
+}
+
+.unaseccion{
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    padding-top: calc(50vh- 50px);
+
+}
+
+
+
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  .menu {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .menu a i {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+  
+  .menu a.facebook {
+    color: #1877f2; /* Color de Facebook */
+  }
+  
+  .menu a.twitter {
+    color: #1da1f2; /* Color de Twitter */
+  }
+  
+  .menu a.instagram {
+    color: #bc2a8d; /* Color de Instagram */
+  }
+  
+  .menu a.linkedin {
+    color: #0077b5; /* Color de LinkedIn */
+  }
+  
+  .menu a:hover {
+    color: #f8f8f8;
+  }
+  
+  /* Ajustes de margen superior para el contenedor principal */
+.div-contenedor {
+    margin-top: -20px; /* Puedes ajustar este valor según sea necesario */
+}
+
+/* Ajustes de margen inferior para el botón */
+.btn-custom {
+    margin-bottom: 20px; /* Puedes ajustar este valor según sea necesario */
+}
+
+/*.max-height-200 {
+    max-height: 200px; /* Puedes ajustar este valor según sea necesario */
+
+
